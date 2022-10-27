@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Dulce Ricón</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+        <!--Barra de navegacion-->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a class="Menu" href="#MenuPasteles">Menu</a>
+                <a class="Accesorios" href="#Accesorios">Accesorios</a>
+                <a class="Pedido" href="#Pedidos">Pedidos</a>
+                <a class="Ubicacion" href="#Ubicacion">Ubicacion</a>
+                <h1 class="Nombre">Pasteleria Dulce Ricón</h1>
+                <h2 class="Lema">Lo mas dulce del mundo</h2>
+                <img class="Logo"src="./Assets/img/DulceRincon.png" alt="logo Dulce Rincon">
+            </nav>
+        </div>
+    </header>
+
+    <section class="pastel1">
+        <img class="image1" src="./Assets/img/pastel_de_fresa.jpg">
+    </section>
+    <section class="pastel2">
+        <img class="image2" src="./Assets/img/Chocolate.jpeg">
+    </section>
+    <section class="pastel3">
+        <img class="image3" src="./Assets/img/pastel_cafe.jpg">
+    </section>
+    
+    <section class="menuPasteleria">
+        <!--Menu de pasteles-->
+        <h2 id="MenuPasteles"> Menu </h2>
+        <div>
+            <img class="menuImage1" src="./Assets/img/past123-768x768.png">
+        </div>
+        <hr>
+        <h3>Pasteles</h3>
+        <ul>
+            <li> Chocolate ............... $180</li>
+            <li> Chocolate blanco ................. $190</li>
+            <li> Coco ............................... $150</li>
+            <li> Galleta Oreo .......................... $200</li>
+            <li> Cafe ............................. $200</li>
+            <li> Tres leches ................................ $190</li>
+            <li> Queso con fresa ...................... $200</li>
+            <li> Fresas con crema .................. $150</li>
+            <li> Piña ................$150</li>
+            <li> Zanahoria tradicional ..............$180</li>
+            <li> Chocolate Ferrero ............... $170</li>
+            <li> Frutos Rojos .............. $210</li>
+            <li> Escocés ............ $210</li>
+        </ul>
+        <hr>
+
+        <!--Menu de adornos-->
+        <div>
+            <img class="accesorios1" src="./Assets/img/figura1.png">
+        </div>
+        <div class="menuAccesorios">
+            <h3 id="Accesorios">Accesorios para tu pastel</h3>
+            <ul>
+                <li> Letrero de felicitaciones personalizado ............ $150</li>
+                <li> Velas para pastel ................. $80</li>
+                <li> Adornos de gomitas de dulce ................. $70</li>
+                <li> Adornos de figuras decorativas ................... 120</li>
+                <li> Decoracion con chispas de dulce o chocolate ............ $60</li>
+            </ul>
+            <hr>
+        </div>
+        <!--Menu de pays-->
+        <div>
+            <img class="Pay1" src="./Assets/img/Pay1.png">
+            <img class="Pay2" src="./Assets/img/producto-74-img-368.png">
+        </div>
+        <div class="menuPay">
+            <h3>Pay por solo $100</h3>
+            <dl>
+                <dt>Pay de...</dt>
+                <dd>- limon </dd>
+                <dd>- Platano </dd>
+                <dd>- Guayaba </dd>
+                <dd>- Fresa</dd>
+            </dl>
+            <hr>
+        </div>
+        
+    </section>
+
+    <!--Pedidos-->
+    <section class="hacerPedidos">
+        <h2 id="Pedidos"> Haz tu pedido </h2>
+        <h3>Llama al siguente numero de telefono o haz tu pedido por esta pagina</h3>
+        <ul>
+            <li>Sucursal Centro: 2583484625</li>
+        </ul>
+        <!--Formularios de pedidos-->
+        <form action="">
+            <div>
+                <img class="PastelChocolate" src="./Assets/img/pastel-de-doble-chocolate.png">
+            </div>
+            <p>¿De que sabor quires tu pastel?</p>
+            <select>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Chocolate Blanco">Chocolate blanco</option>
+                <option value="Coco">Coco</option>
+                <option value="GalletaOreo">Galleta Oreo</option>
+                <option value="Cafe">Cafe</option>
+                <option value="Tres leches">Tres leches</option>
+                <option value="Queso con fresa">Queso con fresa</option>
+                <option value="Fresas con crema">Fresas con crema</option>
+                <option value="Piña">Piña</option>
+                <option value="Zanahoria tradicional">Zanahoria tradicional</option>
+                <option value="Chocolate Ferrero">Chocolate Ferrero</option>
+                <option value="Frutos Rojos">Frutos Rojos</option>
+                <option value="Escocés">Escocés</option>
+                <option value="Limon">Pay de limon</option>
+                <option value="Platano">Pay de platano</option>
+                <option value="Guayaba"> Pay de guayaba</option>
+                <option value="Fresa"> Pay de fresa</option>
+            </select>
+        </form>
+        <form action="">
+            <p>¿Quieres algun adorno para tu pastel?</p>
+            <select>
+                <option value="LetreroPersonalizado">Letrero de felicitaciones personalizado</option>
+                <option value="VelasPastel">Velas para pastel</option>
+                <option value="GomitasDulce">Adornos de gomitas de dulce</option>
+                <option value="FigurasDecorativas">Adornos de figuras decorativas</option>
+                <option value="ChispasDulce">Decoracion con chispas de dulce</option>
+                <option value="Tres leches">Decoracion con chispas de chocolate</option>
+                <option value="SinAdorno">Sin adornos</option>
+            </select>
+        </form>
+
+        <p>¿Quieres hacer varios pedidos?</p>
+        <p>Indica el sabor y/o la cantidad de tu pedido</p>
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <input type="number" id="ChocolateNumber" name="ChocolateNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Chocolate Blanco" name="Chocolate Blanco" value="Chocolate Blanco">
+        <label for="Chocolate Blanco">Chocolate Blanco</label>
+        <input type="number" id="Chocolate BlancoNumber" name="Chocolate BlancoNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Coco" name="Coco" value="Coco">
+        <label for="Coco">Coco</label>
+        <input type="number" id="CocoNumber" name="CocoNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Galleta Oreo" name="Galleta Oreo" value="Galleta Oreo">
+        <label for="Galleta Oreo">Galleta Oreo</label>
+        <input type="number" id="Galleta OreoNumber" name="Galleta OreoNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Cafe" name="Cafe" value="Cafe">
+        <label for="Cafe">Cafe</label>
+        <input type="number" id="CafeNumber" name="CafeNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Tres leches" name="Tres leches" value="Tres leches">
+        <label for="Tres leches">Tres leches</label>
+        <input type="number" id="Tres lechesNumber" name="Tres lechesNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Queso con fresa" name="Queso con fresa" value="Queso con fresa">
+        <label for="Queso con fresa">Queso con fresa</label>
+        <input type="number" id="Queso con fresaNumber" name="Queso con fresaNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Fresas con crema" name="Fresas con crema" value="Fresas con crema">
+        <label for="Fresas con crema">Fresas con crema</label>
+        <input type="number" id="Fresas con cremaNumber" name="Fresas con cremaNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Pina" name="Pina" value="Pina">
+        <label for="Pina">Piña</label>
+        <input type="number" id="PinaNumber" name="PinaNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+        <label for="Zanahoria">Zanahoria tradicional</label>
+        <input type="number" id="ZanahoriaNumber" name="ZanahoriaNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Ferrero" name="Ferrero" value="Ferrero">
+        <label for="Ferrero">Chocolate Ferrero</label>
+        <input type="number" id="FerreroNumber" name="FerreroNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Rojos" name="Rojos" value="Rojos">
+        <label for="Rojos">Frutos Rojos</label>
+        <input type="number" id="RojosNumber" name="RojosNumber" placeholder="¿Cuántos?"><br>
+        <br>
+        <input type="checkbox" id="Escoces" name="Escoces" value="Escoces">
+        <label for="Escoces">Escocés</label>
+        <input type="number" id="EscocesNumber" name="EscocesNumber" placeholder="¿Cuántos?"><br>
+        <hr>
+        <br>
+    </section>
+
+    <section class="infoPedido">
+        <!--Formulario de Informacion-->
+        <h4> Ingresa tu informacion </h4>
+        <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+
+            <br><br>
+
+            <label for="Teléfono">Teléfono:</label><br>
+            <input type="text" id="Teléfono" name="Teléfono" placeholder="¿Tu teléfono?">
+
+            <br><br>
+            <label for="Dirección">Dirección:</label><br>
+            <input type="text" id="Dirección" name="Dirección" placeholder="¿A dónde lo mandamos?"><br/>
+            <br>
+            <button type="submit">Enviar pedido</button>
+        <hr>
+        <br><br/>
+    </section>
+
+    <section class="ubiSucursal">
+        <!--Ubications-->
+        <h3 id="Ubicacion">Ubicacion</h3>
+        <h3>Sucursales</h3>
+        <div>
+            <img class="Local"src="./Assets/img/Pasteleria.png">
+            <link href="https://goo.gl/maps/nvZdG7Q1hBSvfHdAA">
+        </div>
+        <table>
+            <tr>
+                <th>Sucursal</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/nvZdG7Q1hBSvfHdAA">Av. Constituyentes 401, 42080 </a></td>
+                <td>Lunes a Viernes 8:00am a 4:00pm <br>
+                    Fines de semana 9:00am a 3:00pm </td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>© Pasteleria Dulce Rincón</p>
+    </footer>
+</body>
+</html>
